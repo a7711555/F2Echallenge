@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+	<title>task2</title>
+
+	<meta charset="UTF-8">
+	<meta="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!--fontawesome CSS-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!-- custom CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- header bar -->
+	<div ></div>
+	<div class="header">
+		<a href="index.html">
+			<img src="images/logo.png" alt="">
+		</a>
+		<form class="form-inline search-box" action="">
+			<div class="input-group">
+				<div class="inputgroup-prepend">
+					<span class="mr-2"><i class="fas fa-search"></i></span>
+				</div>
+			</div>
+			<input type="text" class="" placeholder="Explore your own activities">
+		</form>
+	</div>
+
+	<!-- aside -->
+	<div class="aside">
+		<div class="location mx-auto">
+			<h4>Location</h4>
+			<select name="" id="">
+				<option value="" selected>Taiwan</option>
+			</select>
+		</div>
+		<hr />
+		<div class="date mx-auto">
+			<h4>Date</h4>
+			<div class="float-right mb-1 mt-4">
+				<span>from </span><input type="date" value="2018-05-24">
+			</div>
+			<div class="float-right">
+				<span>to </span><input type="date" value="2018-06-01">
+			</div>
+		</div>
+		<hr />
+		<div class="categories mx-auto">
+			<h4>Categories</h4>
+			<label class="checkbox-container">all
+			  <input type="checkbox">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="checkbox-container">Entertainment
+			  <input type="checkbox">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="checkbox-container">Food
+			  <input type="checkbox">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="checkbox-container">Learning
+			  <input type="checkbox">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="checkbox-container">Outdoors
+			  <input type="checkbox">
+			  <span class="checkmark"></span>
+			</label>
+		</div>
+	</div>
+	<!-- main contain -->
+	<div class="frame">
+		<div class="content mx-auto mt-2">
+			<h3>Showing <span class="count">15</span> results by...</h3>
+			<div class="tag d-inline">
+				Kaohsiung <i class="far fa-times-circle"></i>
+			</div>
+			<div class="tag d-inline">
+				Entertainment <i class="far fa-times-circle"></i>
+			</div>
+			<a href="#">
+				<div class="article ">
+					<img src="images/post-1.png" alt="" class="float-left">
+					<div class="text float-left">
+						<h3> Kogi Cosby Sweater.</h3>
+						<p>Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id.</p>
+						<div>
+							<span class="author">Ethan Foster</span><span class="badge badge-pill badge-set">Entertainment</span>
+						</div>
+						<div class="article-tag">
+							<i class="fas fa-map-marker-alt"></i> Kaohsiung City <i class="ml-3 far fa-calendar-alt"></i> 2018/5/24 - 2018/5/31
+						</div>
+					</div>
+				</div>
+			</a>
+			
+			<a href="#">
+				<div class="article ">
+					<img src="images/post-2.png" alt="" class="float-left">
+					<div class="text float-left">
+						<h3> In the tumultuous business.</h3>
+						<p>It was a humorously perilous business for both of us. For, before we proceed further, it must be said that the monkey-rope was fast at both</p>
+						<div>
+							<span class="author">Herman Cobb</span><span class="badge badge-pill badge-set">Entertainment</span>
+						</div>
+						<div class="article-tag">
+							<i class="fas fa-map-marker-alt"></i> Kaohsiung City <i class="ml-3 far fa-calendar-alt"></i> 2018/5/24 - 2018/5/31
+						</div>
+					</div>
+				</div>
+			</a>
+			
+			<a href="#">
+				<div class="article ">
+					<img src="images/post-3.png" alt="" class="float-left">
+					<div class="text float-left">
+						<h3> I have hinted that I would often jerk poor Queequeg from between the wha. </h3>
+						<p>In the tumultuous business of cutting-in and attending to a whale, there is much running backwards and forwards among the crew. Now ands are</p>
+						<div>
+							<span class="author">Landon Powers</span><span class="badge badge-pill badge-set">Entertainment</span>
+						</div>
+						<div class="article-tag">
+							<i class="fas fa-map-marker-alt"></i> Kaohsiung City <i class="ml-3 far fa-calendar-alt"></i> 2018/5/24 - 2018/5/31
+						</div>
+					</div>
+				</div>
+			</a>
+			<ul class="pagination float-right mt-4">
+		    <li class="page-item">
+		      <a class="mypage-link" href="#" aria-label="Previous">
+		        <span aria-hidden="true">&laquo;</span>
+		        <span class="sr-only">Previous</span>
+		      </a>
+		    </li>
+		    <li class="page-item"><a class="mypage-link" href="#">1</a></li>
+		    <li class="page-item"><a class="mypage-link" href="#">2</a></li>
+		    <li class="page-item"><a class="mypage-link" href="#">3</a></li>
+		    <li class="page-item"><a class="mypage-link" href="#">4</a></li>
+		    <li class="page-item"><a class="mypage-link" href="#">5</a></li>
+		    <li class="page-item">
+		      <a class="mypage-link" href="#" aria-label="Next">
+		        <span aria-hidden="true">&raquo;</span>
+		        <span class="sr-only">Next</span>
+		      </a>
+		    </li>
+		  </ul>
+
+		</div>
+	</div>
+	
+
+	</div>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<!-- Custom javascript -->
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>
