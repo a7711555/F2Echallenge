@@ -64,9 +64,23 @@ body {
 }
 
 /* aside */
+@media screen and (max-width: 576px) {
+	.aside {
+		margin: 0 auto;
+		float: left;
+		width: 100%;
+	}
+
+	.frame {
+		margin: 0 auto;
+		width: 100%;
+		float: left;
+	}
+}
+
 .aside {
 	float: left;
-	width: 300px;
+	width: 25%;
 	background-color: #EBEBEB;
 	margin: 0 0 0 38px;
 }
@@ -228,9 +242,36 @@ body {
 .article {
 	width: 100%;
 	height: 220px;
-	margin-top: 30px;
+	margin-top: 24px;
 	background-color: #FFFFFF;
 }
+
+
+.article {
+	width: 100%;
+	height: 414px;
+	margin-top: 24px;
+	background-color: #FFFFFF;
+}
+
+.article img {
+	width: 100%;
+	height: 196px;
+	float: none;
+}
+.text {
+	float: none;
+	margin: 24px 0 0 20px;
+	width: 520px;
+	font-size: 16px;
+}
+
+.display-none {
+	display: none;
+}
+
+
+
 
 .article:hover {
 	-webkit-box-shadow: -1px 0 5px rgba(0,0,0,0.5);
@@ -238,12 +279,28 @@ body {
 	box-shadow: -1px 0 5px rgba(0,0,0,0.5);
 }
 
-.article img {
-	width: 220px;
-	height: 220px;
+@media (min-width: 992px){
+	.article {
+		width: 100%;
+		height: 220px;
+		margin-top: 24px;
+		background-color: #FFFFFF;
+	}
+
+	.article img {
+		width: 220px;
+		height: 220px;
+		float: left;
+	}
+	.display-none {
+		display: block;
+	}
+
 }
 
+
 .text {
+	float: left;
 	margin: 24px 0 0 20px;
 	width: 520px;
 	font-size: 16px;
